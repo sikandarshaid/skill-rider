@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'NotoSerifBengali';
+  src: url(noto-serif-bangali/NotoSerifBengali-VariableFont_wdth\,wght.eot) format('embedded-opentype'),
+       url(noto-serif-bangali/NotoSerifBengali-VariableFont_wdth\,wght.svg) format('svg'),
+       url(noto-serif-bangali/NotoSerifBengali-VariableFont_wdth\,wght.ttf) format('truetype'),
+       url(noto-serif-bangali/NotoSerifBengali-VariableFont_wdth\,wght.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ador-Noirrit-Web';
+  src: url(la-ador-noirrit/Li\ Ador\ Noirrit\ Regular.eot) format('embedded-opentype'),
+       url(la-ador-noirrit/Li\ Ador\ Noirrit\ Regular.svg) format('svg'),
+       url(la-ador-noirrit/Li\ Ador\ Noirrit\ Regular.ttf) format('truetype'),
+       url(la-ador-noirrit/Li\ Ador\ Noirrit\ Regular.woff) format('woff');
+}

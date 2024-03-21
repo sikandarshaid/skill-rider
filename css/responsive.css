@@ -1,0 +1,436 @@
+/* Desktop version */
+@media (min-width: 992px) and (max-width: 1400px){
+    /* =============Header-Part-Start============= */
+
+    /* =============Header-Part-End=============== */
+    /* =============Course-Benefit-Start========== */
+    /* =============Course-Benefit-End============ */
+    .slick-dots{
+        display: none !important;
+    }
+    /* =============Course-Offer-Start============ */
+    /* =============Course-Offer-End============== */
+    /* =============Online-Course-Start=========== */
+    /* =============Online-Course-End============= */
+    /* =============How-To-Use-Offer-St===========*/
+    /* =============How-To-Use-Offer-ed===========*/
+    /* =============Support-Part-Start============ */
+    .skill-rider-support-bg .slider-controlar::after {
+        left: 40%;
+    }
+    .skill-rider-support-bg .slider-controlar::before {
+        right: 40%;
+    }
+    /* =============Support-Part-End============== */
+    /* =============Client-Testimonil-start======= */
+    .testimonils-slider-controler{
+        justify-content: center;
+    }
+    .testimonils-slider-controler::after {
+        left: 26%;
+    }
+    .testimonils-slider-controler::before {
+        left: 74%;
+    }
+    /* =============Client-Testimonil-End========= */
+    /* =============Communication-our-start======= */
+    /* =============Communication-our-End========= */
+    /* =============Alert-start========== */
+    /* =============Alert-End============ */
+}
+/* Laptop version */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* =============Header-Part-Start============= */
+    .hero-banner-title h1{
+        margin-right: 0;
+    }
+    .hero-banner-title p {
+        margin: 36px 0;
+    }
+    .hero-banner-title .pre-order-button {
+        margin-bottom: 36px;
+    }
+    /* =============Header-Part-End=============== */
+
+    /* =============Course-Benefit-Start========== */
+    .pre-order-button {
+        margin-bottom: 0;
+    }
+    /* =============Course-Benefit-End============ */
+
+    /* =============Course-Offer-Start============ */
+    .course-offer-slider-arrow .prev {
+        margin-bottom: 0;
+    }
+    .course-offer-slider-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 36px 0;
+        gap: 15px;
+    }
+    .course-offer-slider-arrow::after {
+        left: 35%;
+        width: 35px;
+        height: 2px;
+        top: 12px;
+    }
+    .course-offer-slider-arrow::before {
+        right: 35%;
+        width: 35px;
+        height: 2px;
+        bottom: 12px;
+    }
+    .course-offer-slider .slick-initialized .slick-slide:first-child{
+        margin-left: 0;
+    }
+    .course-offer-slider .slick-dots {
+        display: none !important;
+    }
+    /* =============Course-Offer-End============== */
+    /* =============Online-Course-Start=========== */
+    .online-course-bg {
+        padding: 80px 0 56px;
+      }
+    .online-course-card{
+        margin-bottom: 24px;
+    }
+    /* =============Online-Course-End============= */
+    /* =============How-To-Use-Offer-St===========*/
+    .use-offer-middle-image{
+        display: none;
+    }
+    .use-offer-bg .pre-order-button{
+        margin-bottom: 24px;
+    }
+    /* =============How-To-Use-Offer-ed===========*/
+    /* =============Support-Part-Start============ */
+    .slick-dots {
+        display: none !important;
+    }
+    .skill-rider-support-bg .slider-controlar::after {
+        left: 36%;
+    }
+    .skill-rider-support-bg .slider-controlar::before {
+        right: 36%;
+    }
+    .support-card-item-wrap {
+        margin: 36px 0;
+    }
+    /* =============Support-Part-End============== */
+    /* =============Client-Testimonil-start======= */
+    .testimonils-slider-controler {
+        margin: 24px 0;
+    }
+    .slick-initialized .slick-slide:first-child{
+        margin-left: 0;
+    }
+    /* =============Client-Testimonil-End========= */
+    /* =============Communication-our-start======= */
+    /* =============Communication-our-End========= */
+    /* =============Alert-start========== */
+    .alert-content-wrap {
+        width: 100%;
+    }
+    .alert-content-wrap .alert-main-content {
+        width: 100%;
+    }
+    /* =============Alert-End============ */
+}
+/* Tablet version */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* =============Header-Part-Start============= */
+    .hero-banner-bg {
+        padding: 60px 0;
+    }
+    .hero-banner-title h1 {
+        font-size: 58px;
+        margin-right: 0;
+    }
+    .hero-banner-title .pre-order-button a {
+        margin-bottom: 24px;
+    }
+    /* =============Header-Part-End=============== */
+    /* =============Course-Benefit-Start========== */
+    .course-benefit-bg {
+        padding: 60px 0;
+    }
+    .benefit-card-wrap {
+        padding: 40px 0 24px;
+    }
+    /* =============Course-Benefit-End============ */
+    /* =============Course-Offer-Start============ */
+    .course-offer-bg {
+        padding: 60px 0;
+    }
+    .course-offer-bg .slick-initialized .slick-slide:first-child{
+        margin-left: 0;
+    }
+    .course-offer-slider-arrow{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 24px 0;
+    }
+    .course-offer-slider-arrow::after{
+        display: none;
+    }
+    .course-offer-slider-arrow::before{
+        display: none;
+    }
+    .course-offer-bg .slick-dots {
+        display: none !important;
+    }
+    /* =============Course-Offer-End============== */
+    /* =============Online-Course-Start=========== */
+    .online-course-bg {
+        padding: 60px 0;
+    }
+    .online-course-title {
+        margin-bottom: 40px;
+    }
+    .online-course-card{
+        margin-bottom: 24px;
+    }
+
+    /* =============Online-Course-End============= */
+    /* =============How-To-Use-Offer-St===========*/
+    .use-offer-bg {
+        padding: 60px 0;
+    }
+    .use-offer-bg h2 {
+        margin-bottom: 40px;
+    }
+    .use-offer-middle-image {
+        display: none;
+    }
+    .use-offer-bg .pre-order-button a {
+        margin-bottom: 24px;
+    }
+    /* =============How-To-Use-Offer-ed===========*/
+    /* =============Support-Part-Start============ */
+    .skill-rider-support-bg{
+        padding: 60px 0;
+    }
+    .support-card-item-wrap {
+        margin: 40px 0;
+    }
+    .skill-rider-support-bg .slider-controlar::after {
+        left: 31%;
+    }
+      .skill-rider-support-bg .slider-controlar::before {
+        right: 31%;
+    }
+    /* =============Support-Part-End============== */
+    /* =============Client-Testimonil-start======= */
+    .testimonils-bg {
+        padding: 60px 0;
+    }
+    .testimonils-main-title h2 {
+        margin-bottom: 40px;
+    }
+    .testimonils-slider-controler {
+        margin-bottom: 24px;
+    }
+    .testimonils-bg .slick-initialized .slick-slide{
+        margin-left: 0;
+    }
+    /* =============Client-Testimonil-End========= */
+    /* =============Communication-our-start======= */
+    .communication-bg{
+        padding: 60px 0;
+    }
+    .communication-title h2 {
+        margin-bottom: 40px;
+    }
+    .communication-title .submit-button {
+        margin-bottom: 24px;
+      }
+    /* =============Communication-our-End========= */
+    /* =============Alert-start========== */
+    .alert-bg {
+        padding: 60px 0;
+    }
+    .alert-content-wrap{
+        width: 100%;
+    }
+    .alert-content-wrap .alert-main-content{
+        width: 100%;
+    }
+    .alert-content-wrap {
+        padding: 33px 24px;
+    }
+    /* =============Alert-End============ */
+}
+
+/* mobile version */
+@media (max-width: 575px) {
+    .pre-order-button a{
+        display: block;
+        text-align: center;
+    }
+    /* =============Header-Part-Start============= */
+    .hero-banner-bg {
+        padding: 40px 0;
+    }
+    .hero-banner-title h1 {
+        font-size: 45px;
+        margin-right: 0;
+    }
+    .hero-banner-title p {
+        margin: 24px 0;
+    }
+    .hero-banner-title .pre-order-button{
+        margin-bottom: 30px;
+    }
+    .hero-banner-image .play-button {
+        width: 45px;
+        height: 45px;
+        font-size: 24px;
+    }
+    .hero-banner-image .play-button::after {
+        top: -20px;
+        left: -20px;
+        right: -20px;
+        bottom: -20px;
+    }
+    .hero-banner-image .play-button::before {
+        top: -20px;
+        left: -20px;
+        right: -20px;
+        bottom: -20px;
+    }
+    /* =============Header-Part-End=============== */
+
+    /* =============Course-Benefit-Start========== */
+    .course-benefit-bg {
+        padding: 40px 0;
+    }
+    .course-benefit-bg .benefit-title {
+        width: 100%;
+    }
+    .benefit-card-wrap {
+        padding: 35px 0 24px;
+    }
+    /* =============Course-Benefit-End============ */
+
+    /* =============Course-Offer-Start============ */
+    .course-offer-bg {
+        padding: 40px 0;
+    }
+    .slick-initialized .slick-slide {
+        margin-left: 0;
+    }
+    .course-offer-text .pre-order-button{
+        margin-bottom: 30px;
+    }
+    .course-offer-slider-arrow {
+        display: flex;
+        justify-content: center;
+    }
+    .course-offer-slider-arrow .prev {
+        margin-bottom: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    .next.slick-arrow {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .course-offer-slider-arrow::after{
+        display: none;
+    }
+    .course-offer-slider-arrow::before {
+        display: none;
+    }
+    /* =============Course-Offer-End============== */
+    /* =============Online-Course-Start=========== */
+    .online-course-bg {
+        padding: 40px 0;
+    }
+    .online-course-title {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .online-course-card{
+        padding: 36px 24px;
+        margin-bottom: 24px;
+    }
+    .online-course-card h3 {
+        margin-bottom: 36px;
+    }
+    /* =============Online-Course-End============= */
+    /* =============How-To-Use-Offer-St===========*/
+    .use-offer-bg {
+        padding: 40px 0;
+    }
+    .use-offer-bg h2 {
+        margin-bottom: 24px;
+    }
+    .use-offer-middle-image {
+        display: none;
+    }
+    .use-offer-bg .pre-order-button a {
+        display: block;
+        text-align: center;
+        margin-bottom: 24px;
+      }
+    /* =============How-To-Use-Offer-ed===========*/
+    /* =============Support-Part-Start============ */
+    .skill-rider-support-bg {
+        padding: 40px 0 ;
+    }
+    .support-card-item-wrap {
+        margin: 40px 0 10px;
+    }
+    .skill-rider-support-bg .slider-controlar::after{
+        display: none;
+    }
+    .skill-rider-support-bg .slider-controlar::before{
+        display: none;
+    }
+    /* =============Support-Part-End============== */
+    /* =============Client-Testimonil-start======= */
+    .testimonils-bg {
+        padding: 60px 0;
+    }
+    .testimonils-main-title h2 {
+        margin-bottom: 36px;
+    }
+    .testimonils-slider-controler {
+        margin-bottom: 24px;
+    }
+    /* =============Client-Testimonil-End========= */
+    /* =============Communication-our-start======= */
+    .communication-bg {
+        padding: 40px 0;
+    }
+    .communication-title h2 {
+        margin-bottom: 35px;
+    }
+    .location {
+        margin-top: 40px;
+    }
+    .location .map .map-image {
+        height: 250px;
+    }
+    /* =============Communication-our-End========= */
+    /* =============Alert-start========== */
+    .alert-content-wrap {
+        width: 100%;
+    }
+    .alert-content-wrap .alert-main-content {
+        width: 90%;
+    }
+    /* =============Alert-End============ */
+
+
+
+
+
+
+}

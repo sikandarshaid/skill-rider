@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ==typography-Start== */
+p{
+    font-family: 'NotoSerifBengali';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585858;
+    margin: 0;
+    padding: 0;
+}
+.pre-order-button a{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 12px;
+    background: #B31F24;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    display: inline-block;
+    transition: .5s;
+}
+.pre-order-button a span{
+    padding: 10px;
+    transition: .5s;
+    background: #D50E0E ;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.pre-order-button:hover a{
+    background: #242323F5;
+}
+.pre-order-button:hover a span{
+    background: #B31F24;
+}
+.pre-order-button:hover a i{
+    scale: 1.5;
+}
+/* ==typography-End==== */
+/* =================Header-Part-Start================== */
+/* ==Menu-Bar-Start== */
+.menubar .header-horizontal-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menubar .navbar{
+    padding: 22px 0;
+}
+.header-horizontal-menu ul li a{
+    font-family: 'NotoSerifBengali';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-right: 60px;
+}
+.menubar .call_button{
+    display: flex;
+}
+.menubar .call_button .buy-icon a i{
+    color: #313131;
+    font-size: 26px;
+    border: 1px solid #FFFFFF;
+    margin-right: 24px;
+    background: transparent;
+}
+.menubar .call_button .main-button a{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 14px 16px;
+    color: #FFFFFF;
+    background: #313131;
+    text-decoration: none;
+}
+/* ==Menu-Bar-End== */
+/* =Hero-Banner-Start= */
+.hero-banner-bg{
+    background: url(../image/hero-banner-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.hero-banner-title h1{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 60px;
+    font-weight: 700;
+    /* line-height: 78px; */
+    color: #313131;
+    margin-bottom: 0;
+    margin-right: 100px;
+}
+.hero-banner-title h1 span{
+    background: linear-gradient(90deg, #B31F24 0%, #D50E0E 115.89%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.hero-banner-title p{
+    margin: 48px 0;
+}
+.hero-banner-image{
+    height: 100%;
+    border-radius: 16px;
+    position: relative;
+}
+.hero-banner-image::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #C3D9FF;
+    width: 100%;
+    height: 18%;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.hero-banner-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.hero-banner-image .video-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-banner-image .play-button{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 33px;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    color: #FFFFFF;
+    z-index: 2;
+    position: relative;
+}
+.hero-banner-image .play-button::before{
+    content: '';
+    position: absolute;
+    border: 8px solid #C3D9FF;
+    border-radius: 50%;
+    top: -28px;
+    left: -28px;
+    right: -28px;
+    bottom: -28px;
+    animation: bloom-1 1.5s linear infinite;
+    opacity: 0;
+    z-index: 1;
+}
+.hero-banner-image .play-button::after{
+    content: '';
+    position: absolute;
+    border: 8px solid #C3D9FF;
+    border-radius: 50%;
+    top: -28px;
+    left: -28px;
+    right: -28px;
+    bottom: -28px;
+    animation: bloom-2 1.5s linear infinite;
+    opacity: 0;
+    z-index: 1;
+    animation-delay: .5s;
+}
+@keyframes bloom-1
+{
+    0%
+    {
+        transform: scale(.5);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+@keyframes bloom-2
+{
+    0%
+    {
+        transform: scale(.5);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.1);
+    }
+}
+/* =Hero-Banner-End= */
+/* =================Header-Part-End==================== */
+
+/* =================Course-Benefit-Start=============== */
+.course-benefit-bg{
+    padding: 80px 0;
+}
+.course-benefit-bg .benefit-title{
+    width: 370px;
+    margin: 0 auto;
+    text-align: center;
+}
+.course-benefit-bg .benefit-title h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 24px;
+    font-weight: 700;
+    color: #313131;
+    margin: 24px 0;
+}
+.benefit-title h2 span{
+    background: linear-gradient(90deg, #B31F24 0%, #D50E0E 115.89%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+/* ==benefit-all-card-Start== */
+.benefit-card-wrap{
+    padding: 48px 0 24px;
+}
+.benefit-single-card{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 20px 0px #E6EFFF99;
+    border-radius: 16px;
+    transition: all .5s linear;
+    border: 1px solid #BFD6FF;
+    margin-bottom: 24px;
+}
+.benefit-single-card .card-image{
+    padding: 70px 0 48px;
+}
+.benefit-single-card .card-image img{
+    width: 90px;
+    height: 90px;
+    padding: 14px;
+    background: #C3D9FF;
+    border-radius: 12px;
+}
+.benefit-single-card .card-title{
+    margin-bottom: 24px;
+}
+.benefit-single-card .card-title h3{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 16px;
+    font-weight: 600;
+    color: #313131;
+    padding: 0 30px 70px;
+}
+.active-card{
+    background: #B31F24;
+    box-shadow: 0px 0px 24px 0px #00000012;
+    color: #FFFFFF;
+}
+.active-card .card-title h3{
+    color: #FFFFFF;
+}
+.active-card .card-image img{
+    background: #FFFFFF;
+}
+.benefit-single-card:hover{
+    background: #B31F24;
+    box-shadow: 0px 0px 24px 0px #00000012;
+}
+.benefit-single-card:hover .card-image img{
+    background: #FFFFFF;
+}
+.benefit-single-card:hover .card-title h3{
+    color: #FFFFFF;
+}
+/* ==benefit-all-card-End==== */
+/* =================Course-Benefit-End================= */
+
+/* =================Course-Offer-Start================= */
+.course-offer-bg{
+    background: url(../image/hero-banner-bg.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.course-offer-text h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 32px;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 0;
+}
+.course-offer-text h2 span{
+    background: linear-gradient(90deg, #B31F24 0%, #D50E0E 115.89%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.course-offer-text p{
+    margin: 24px 0;
+}
+.course-offer-slider-arrow{
+    position: relative;
+}
+.course-offer-slider-arrow::after{
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: -50px;
+    width: 1.5px;
+    height: 35px;
+    background-color: #313131;
+}
+.course-offer-slider-arrow::before{
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: -50px;
+    width: 1.5px;
+    height: 35px;
+    background-color: #313131;
+}
+.course-offer-slider-arrow .prev{
+    margin-bottom: 12px;
+}
+.course-offer-slider-arrow .prev i, .course-offer-slider-arrow .next i{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #0B6155;
+    font-size: 15px;
+    border: 1px solid #313131;
+    transition: .5s;
+    cursor: pointer;
+}
+.course-offer-slider-arrow .next .active-arrow,
+.course-offer-slider-arrow .prev i:hover,
+.course-offer-slider-arrow .next i:hover{
+    color: #FFFFFF;
+    background: #B31F24;
+    border: 1px solid #B31F24;
+}
+.single-offer-wrap{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 0px #00000012;
+    border: 1px solid #C3D9FF;
+    border-radius: 8px;
+}
+.single-offer-wrap .single-offer-image{
+    padding: 37px 0 32px;
+}
+.single-offer-wrap .single-offer-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px;
+    background: #B31F24;
+    margin: auto;
+}
+.single-offer-wrap .single-offer-title{
+    padding-bottom: 43px;
+}
+/* =================Course-Offer-End=================== */
+/* =================Online-Course-Start================ */
+.online-course-bg{
+    padding: 80px 0;
+}
+.online-course-title{
+    width: 397px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.online-course-title h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 32px;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 24px;
+}
+.online-course-title h2 span{
+    color: #B31F24;
+}
+.online-course-card{
+    border: 1px solid #BFD6FF;
+    box-shadow: 0px 0px 20px 0px #E6EFFFCC;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+.online-course-card h3{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 24px;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 48px;
+}
+.online-course-card h3 span{
+    color: #B31F24;
+}
+.online-course-card ul{
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+.online-course-card ul li{
+    margin-bottom: 10px;
+}
+.online-course-card ul li a{
+    font-family: 'NotoSerifBengali';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585858;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.online-course-card i{
+    font-size: 12px;
+    padding-top: 6px;
+    margin-right: 10px;
+}
+/* =================Online-Course-End================== */
+
+/* =================How-To-Use-Offer-St================ */
+.use-offer-bg{
+    background: url(../image/hero-banner-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.use-offer-bg h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 42px;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 48px;
+}
+.use-offer-bg h2 span{
+    color: #B31F24;
+}
+.use-offer-bg p:not(:last-child){
+    margin-bottom: 20px;
+}
+/* =================How-To-Use-Offer-ed================ */
+
+/* =================Support-Part-Start================= */
+.skill-rider-support-bg{
+    padding: 80px 0;
+}
+.support-card-item-wrap{
+    margin: 48px 0;
+}
+.skill-rider-support-title{
+    width: 370px;
+    margin: 0 auto;
+    text-align: center;
+}
+.skill-rider-support-title h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 0;
+    color: #313131;
+}
+.skill-rider-support-title h2 span{
+    color: #B31F24;
+}
+.support-single-card{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 20px 0px #E6EFFF99;
+    border-radius: 16px;
+    transition: all .5s linear;
+    border: 1px solid #BFD6FF;
+}
+.support-single-card .card-image{
+    padding: 70px 0 48px;
+}
+.support-single-card .card-image img{
+    width: 90px;
+    height: 90px;
+    padding: 14px;
+    background: #C3D9FF;
+    border-radius: 12px;
+    margin: auto;
+}
+.support-single-card .card-title{
+    margin-bottom: 24px;
+}
+.support-single-card .card-title h3{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 16px;
+    font-weight: 600;
+    color: #313131;
+    padding: 0 30px 70px;
+}
+.support-single-card:hover{
+    background: #B31F24;
+    box-shadow: 0px 0px 24px 0px #00000012;
+}
+.support-single-card:hover .card-image img{
+    background: #FFFFFF;
+}
+.support-single-card:hover .card-title h3{
+    color: #FFFFFF;
+}
+.skill-rider-support-bg .slider-controlar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+.skill-rider-support-bg .slider-controlar::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    width: 35px;
+    border: 1px solid #313131
+}
+.skill-rider-support-bg .slider-controlar::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 43%;
+    width: 35px;
+    border: 1px solid #313131
+}
+.skill-rider-support-bg .slider-controlar i{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #0B6155;
+    border: 1px solid #313131;
+    cursor: pointer;
+    transition: .5s;
+}
+.skill-rider-support-bg .slider-controlar i:hover{
+    background: #B31F24;
+    border: 1px solid #B31F24;
+    color: #FFFFFF !important;
+}
+/* =================Support-Part-End=================== */
+
+/* =================Client-Testimonil-start============ */
+.testimonils-bg{
+    background: url(../image/testomonials-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.testimonils-main-title h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 42px;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 42px;
+}
+.testimonils-main-title h2 span{
+    color: #B31F24;
+}
+/* Testomonila-slider-controler */
+.testimonils-slider-controler{
+    gap: 10px;
+    position: relative;
+}
+.testimonils-slider-controler .prev-3 i, .testimonils-slider-controler .next-3 i{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #0B6155;
+    font-size: 15px;
+    border: 1px solid #313131;
+    transition: .5s;
+    cursor: pointer;
+}
+.testimonils-slider-controler .next-3 .active-arrow,
+.testimonils-slider-controler .prev-3 i:hover,
+.testimonils-slider-controler .next-3 i:hover{
+    color: #FFFFFF;
+    background: #B31F24;
+    border: 1px solid #B31F24;
+}
+.testimonils-slider-controler .prev-3{
+    padding-left: 13%;
+}
+.testimonils-slider-controler::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35px;
+    border: 1px solid #313131
+}
+.testimonils-slider-controler::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    width: 35px;
+    border: 1px solid #313131
+}
+
+/* Testomonila-slider-controler */
+.testomonils-single-card{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 60px 0px #0000000D;
+    border: 1px solid #BFD6FF;
+    border-radius: 24px;
+    padding: 24px;
+}
+.testomonils-card-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    margin-right: 24px;
+}
+.testomonils-card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.testomonils-card-title .b-p{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.testomonils-card-title .review{
+    margin-top: 5px;
+}
+.testomonils-card-title .review i{
+    color: #FFC94F;
+    margin-right: 3px;
+}
+.testomonils-single-card .last-para{
+    margin-top: 24px;
+}
+
+
+/* =================Communication-our-start============  */
+.communication-bg{
+    padding: 80px 0;
+}
+.communication-title h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 24px;
+    font-weight: 700;
+    color: #313131;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.communication-title h2 span{
+    color: #B31F24;
+}
+.communication-bg form label{
+    font-family: 'NotoSerifBengali';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000CC;
+    margin-bottom: 12px;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: 0.75px solid #00000099
+  }
+.communication-bg form input,textarea{
+    font-family: 'NotoSerifBengali';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #00000099;
+    border-radius: 0;
+    padding: 14.5px 0 14.5px 10px;
+    margin-bottom: 24px;
+    transition: .5s;
+}
+.communication-bg form textarea{
+    border-radius: 0;
+    height: 120px;
+}
+.communication-bg form .submit-button button{
+    font-family: 'NotoSerifBengali';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #B31F24;
+    border: 0.75px solid #00000099;
+    padding:10px 14px;
+}
+.communication-bg .location p{
+    margin-bottom: 24px;
+}
+.communication-bg .location p i{
+    margin-right: 16px;
+    font-size: 24px;
+}
+.communication-bg .location a{
+    text-decoration: none;
+    color: #313131;
+}
+.communication-bg .location .email{
+    font-weight: 600;
+}
+.location .map .map-image{
+    height: 283px;
+}
+.location .map .map-image img{
+    width: 100%;
+    height: 100%;
+}
+/* =================Communication-Our-End============== */
+
+/* =================Alert-Start================ */
+.alert-bg{
+    background: url(../image/hero-banner-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.alert-content-wrap{
+    width: 872px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #BFD6FF;
+    box-shadow: 0px 12px 20px 0px #E6EFFF99;
+    padding: 33px 0;
+    border-radius: 6px;
+}
+.alert-content-wrap .alert-main-content{
+    width: 648px;
+    margin: 0 auto;
+}
+.alert-content-wrap .alert-main-content h2{
+    font-family: 'Ador-Noirrit-Web';
+    font-size: 24px;
+    font-weight: 700;
+    color: #B31F24;
+    margin-bottom: 0;
+
+}
+.alert-content-wrap .alert-main-content p{
+    margin: 24px 0;
+}
+/* =================Alert-End================== */
